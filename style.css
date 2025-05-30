@@ -46,7 +46,7 @@ body {
     background-color: var(--fundo-senha);
     border: none;
     color: var(--bordo);
-    font-fafont-family=ancizar+serif: var(--roboto-mono);
+    font-family=ancizar+serif: var(--roboto-mono);
     font-size: 40px;
     width: 70%;
 }
