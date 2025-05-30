@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 :root{
-    --azul: rgb(8, 7, 110);
-    --cor-de-fundo: #659eda;
-    --fundo-senha: #4191ec;
-    --fundo-texto: #3692e9;
-    --borda: #080146;
+    --bordo: rgb(105, 5, 55);
+    --cor-de-fundo: #c00b6e;
+    --fundo-senha:#f771ba;
+    --fundo-texto:#f771ba;
+    --borda: #ffffff;
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 
@@ -17,7 +17,7 @@
 }
 
 body {
-    color: var(--azul);
+    color: var(--bordo);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
 }
@@ -46,7 +46,7 @@ body {
 #campo-senha {
     background-color: var(--fundo-senha);
     border: none;
-    color: var(--azul);
+    color: var(--bordo);
     font-family: var(--roboto-mono);
     font-size: 40px;
     width: 70%;
@@ -95,7 +95,7 @@ body {
 
 .parametro-senha__botao {
     background-color: var(--fundo-texto);
-    color: var(--azul);
+    color: var(--bordo);
     border: 2px solid var(--borda);
     padding: 24px;
     font-size: 24px;
@@ -134,15 +134,15 @@ label {
 
 .fraca {
     width: 25%;
-    background-color: #c00c0cee;
+    background-color: #eb1919f5;
 }
 
 .media {
-    background-color: #faa508;
+    background-color: #f0d645;
     width: 50%;
 }
 .forte {
-    background-color: #2ccf03;
+    background-color: #0fda9dfa;
     width: 100%;
 }
 
