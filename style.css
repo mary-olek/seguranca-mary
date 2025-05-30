@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Playwrite+HU:wght@100..400&display=swap');
 :root{
     --bordo: rgb(105, 5, 55);
     --cor-de-fundo: #c00b6e;
@@ -14,21 +14,20 @@
 
 * {
     font-weight: 400;
-}
 
 body {
     color: var(--bordo);
     background-color: var(--cor-de-fundo);
-    font-family: var(--roboto);
+    font-family=ancizar+serif: var(--roboto);
 }
 
 .titulo-principal {
-    font-family: var(--roboto-mono);
-    font-size: 32px;
+    font-family=ancizar+serif: var(--roboto-mono);
+    font-size: 36px;
 }
 
 .titulo-secundario {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .conteudo-titulo {
@@ -47,7 +46,7 @@ body {
     background-color: var(--fundo-senha);
     border: none;
     color: var(--bordo);
-    font-family: var(--roboto-mono);
+    font-fafont-family=ancizar+serif: var(--roboto-mono);
     font-size: 40px;
     width: 70%;
 }
@@ -69,8 +68,8 @@ body {
 }
 
 .parametro-titulo {
-    font-family: var(--roboto-mono);
-    font-size: 28px;
+    font-family=ancizar+serif: var(--roboto-mono);
+    font-size:28px;
 }
 
 .parametro-senha__titulo {
